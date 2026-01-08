@@ -1,0 +1,20 @@
+{
+  "editor.formatOnPaste": false,
+  // 保存时执行格式化
+  "editor.formatOnSave": true,
+  // 保存时指定插件操作
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  // 设置默认用prettier插件进行代码格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // stylelint 校验的文件格式
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass", "vue", "html"],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm-lock.yaml, eslint.config.mts, prettier.config.mjs, .prettierignore, stylelint.config.mjs, .stylelintignore, .gitignore"
+  }
+}
